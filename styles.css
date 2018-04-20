@@ -1,0 +1,144 @@
+
+body{
+    font-family: 'Lucida Sans';
+    padding: 0;
+    margin: 0;
+}
+
+#top-nav{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+}
+
+#logo{
+    width: 30%;
+    float: left;
+}
+
+#logo>img{
+    width: 60px;
+    height: 20px;
+    
+}
+
+#menu{
+    width: 70%;
+    float: right;
+    text-align: right;
+  
+}
+
+#menu>ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;  
+}
+
+#menu>ul>li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#menu>ul>li>a{
+    display: block;
+    max-width: 140px;
+    height: 50px;
+    text-align: center;
+    color: black;
+    background-color: inherit;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#menu>ul>li>a:hover{
+    background-color: #D33737;
+    color: white;
+}
+
+#mid-banner{
+    width: 100%;
+    height: 290px;
+    background-color: #D33737;
+    text-align: center;
+    color:#fff;
+    padding-top: 80px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+#mid-banner>button{
+    margin-top: 70px;
+    background-color: #A42424;
+    width: 110px;
+    height: 35px;
+    border:none;
+    font-size: 14px;
+    border-radius: 3px;
+}
+#mid-banner>button>a{
+    text-decoration: none;
+    color: white;
+}
+#name{
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+#my-works>img{
+    width: 30%;
+    height: 150px;
+    margin: 20px 0 0 2%;
+}
+#my-works>p{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+
+@media only screen and (max-width: 700px) {
+    #logo{
+        width: 100%;
+        text-align: center;
+    }
+    #menu{
+        width: 100%;
+        text-align: center; 
+    }
+    #top-nav{
+        height: 55px;
+    }
+
+    #menu>ul>li>a{
+        font-size: 12px;
+    }
+
+    #mid-banner{
+        height: 250px;
+        padding-top: 50px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    #mid-banner>button{
+        margin-top: 50px;
+        width: 90px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    #name{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    #my-works>img{
+        width: 48%;
+        height: 100px;
+        margin: 20px 0 0 1%;
+    }
+
+
+}/*@media query ends here*/
